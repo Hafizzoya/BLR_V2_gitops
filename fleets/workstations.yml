@@ -16,6 +16,7 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 name: "💻 Workstations"
 controls:
+  enable_disk_encryption: true
   setup_experience:
     ###########################################################
     # Configure the macOS setup experience
