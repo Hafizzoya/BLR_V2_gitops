@@ -12,6 +12,10 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 org_settings:
+  webhook_settings:
+    activities_webhook:
+      enable_activities_webhook: true
+      destination_url:https://webhook.site/#!/view/ac9f9b4f-6b36-4e50-abb4-309050871d28
   org_info:
     ###########################################################
     # The name of your organization is displayed to end users
@@ -21,7 +25,7 @@ org_settings:
     # Read more:
     #   • https://fleetdm.com/docs/configuration/yaml-files#org-info
     ###########################################################
-    org_name: BLGR
+    org_name: HCL TECH
 
   server_settings:
     ###########################################################
