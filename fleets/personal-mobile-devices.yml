@@ -1,3 +1,4 @@
+
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 #
 # personal-mobile-devices.yml
@@ -43,6 +44,7 @@ controls:
   ###########################################################
   apple_settings:
     configuration_profiles:
+      - path: ..//Users/nttdata/Documents/GitHub/BLR_V2_gitops/platforms/ios/configuration-profiles/passcode-settings.json
       # … e.g.
       # - path: ../lib/ios/declaration-profiles/Passcode settings.json
       # - path: ../lib/ios/configuration-profiles/self-service.mobileconfig
@@ -72,6 +74,10 @@ controls:
 # Apps to make available from the Apple App Store or Google Play
 ###########################################################
 software:
+  fleet_maintained_apps: 
+      - slug: 1Password/darwin
+        self_service: true
+
   app_store_apps:
     ###########################################################
     # iOS apps
